@@ -38,8 +38,8 @@ export default function Herosection() {
         <div className="flex flex-row gap-5">
             {stats.map((stat, index) => (
                 <div key={index} className="flex flex-col gap-1 whitespace-pre-line 
-                 font-light">
-                    <span className="text-purple-400 text-lg">{stat.number}</span>
+                ">
+                    <span className="text-purple-400 text-lg font-bold">{stat.number}</span>
                     <p className="text-gray-400 text-sm font-light">{stat.text}</p>
                   </div>
             ))}

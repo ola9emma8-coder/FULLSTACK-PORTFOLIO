@@ -2,6 +2,7 @@ import './index.css';
 import Navbar from './components/Navbar';
 import Herosection from './components/Herosection';
 import About from './components/About';
+import Stack from './components/Stack';
 export default function App() {
   return (
     <main className="relative min-h-screen overflow-hidden bg-[#080b14] text-white">
@@ -33,6 +34,8 @@ export default function App() {
      <Herosection />
 
      <About />
+
+     <Stack />
       
     </main>
   );
